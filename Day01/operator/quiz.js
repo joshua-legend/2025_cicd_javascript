@@ -1,6 +1,5 @@
 //1. 유저에게 프롬프트로 나이를 입력받고 20살 보다 적으면
 // 콘솔로 미성년자입니다. 아니면 성인입니다. 나타내기
-
 const age = Number(window.prompt("몇살임?"));
 const result = age >= 20 ? "성인입니다." : "미성년자입니다.";
 window.console.log(result);
